@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+template <typename T>
+T findMax(T a,T b){
+	return(a>b)?a:b;
+}
+int main()
+{
+	cout << "Max of 30 and 45:"<< findMax(30,45) << endl;
+	cout << "Max of 3.5 and 2.1:" << findMax(3.5,2.1) << endl;
+	cout << "Max of 'H' and 'G':" << findMax('H','G') << endl;
+	return 0;
+}
